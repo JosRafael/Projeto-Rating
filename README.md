@@ -6,3 +6,6 @@ Treinando habilidades front-end com a plataforma Frontend Mentor. Foi desenvolvi
 
 ### 2 imagem
 ![Rating](https://user-images.githubusercontent.com/81492148/219071500-a73ca653-fd0a-4bde-a6da-a1e684068f99.png)
+
+### 3 imagem
+![image](https://user-images.githubusercontent.com/81492148/219071901-ea7c611f-fbe3-4cae-b657-eb96a854cf35.png)
