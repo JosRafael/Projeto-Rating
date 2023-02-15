@@ -29,6 +29,12 @@
     border-radius: 50%;
     border: none;
 }
+.button:hover{
+    background-color: #7c8798;
+}
+.button:focus{
+    background-color: #f57414;
+}
 .text h1{
     padding-bottom: 0.5rem;
 }
