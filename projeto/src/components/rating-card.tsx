@@ -1,5 +1,12 @@
 import styles from './rating-card.module.css';
+import {useState} from 'react'
 export default function RatingCard(){
+    
+    const [rating, setRating]=useState<number>();
+    function handleSetRating(rating:number){
+        setRating(rating)
+    }
+
     return <div className={styles.card}>
        <div>
         <img className={styles.star} src='/icon-star.svg' alt='star'/>
@@ -14,7 +21,7 @@ export default function RatingCard(){
         </div> 
        
         <div className={styles.buttonGroup}>
-        <button className={styles.button}>1</button>
+        <button onClick={()=>handleSetRating(rating)} className={styles.button}>1</button>
         <button className={styles.button}> 2</button>
         <button className={styles.button}>3</button>
         <button className={styles.button}>4</button>
