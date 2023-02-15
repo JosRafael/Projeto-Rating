@@ -1,7 +1,7 @@
 import styles from './rating-card.module.css';
 export default function RatingCard(){
     return <div className={styles.card}>
-        <img src='/icon-star.svg' alt='star'/>
+        <img className={styles.star} src='/icon-star.svg' alt='star'/>
         
         <h1>How did we do?</h1>
 

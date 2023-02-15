@@ -2,4 +2,10 @@
     background-color: #202630;
     width: 380px;
     padding: 2rem 2.5rem;
+    border-radius: 20px;
+}
+.star{
+    background-color: #333c47;
+    border-radius: 100%;
+    padding: 10px;
 }
