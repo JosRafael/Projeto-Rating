@@ -15,7 +15,17 @@ export default function RatingCard(){
    
     if(isSubmited){
         return(
-            <div className={styles.card}>Thank You!</div>
+            <div className={styles.card} style={{alignItems: 'center'}}>
+           <div>
+            <img src='/illustration-thank-you.svg' alt='cellphone'/>
+           </div>
+           
+            <div>
+                <h2>You select {rating} out of 5</h2>
+            </div>
+           <h1>Thank you!</h1>
+           <p>Thanks for the review, we are grateful for your feedback!</p>
+            </div>
         )
     }
    
