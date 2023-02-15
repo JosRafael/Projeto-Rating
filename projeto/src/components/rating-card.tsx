@@ -13,9 +13,9 @@ export default function RatingCard(){
         setIsSubmited(true)
     }
    
-    if(true){
+    if(isSubmited){
         return(
-            <h1>Thank You!</h1>
+            <h1>Thank You! {rating}</h1>
         )
     }
    
@@ -39,8 +39,7 @@ export default function RatingCard(){
            <button onClick={()=>handleSetRating(rating)} className={styles.button}>{rating}</button>
             ))}
         </div>
-        
         <button type="submit" className={styles.buttonSubmit}>submit</button>
-    </div>
+    </form>
    )
 }
