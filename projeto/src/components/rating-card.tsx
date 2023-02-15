@@ -3,9 +3,9 @@ export default function RatingCard(){
     return <div className={styles.card}>
         <img className={styles.star} src='/icon-star.svg' alt='star'/>
         
-        <h1>How did we do?</h1>
+        <h1 className={styles.title}>How did we do?</h1>
 
-        <p>
+        <p className={styles.description}>
             Please let us know how we did with your support request. Aprecciated help us improve our offering!
         </p>
 

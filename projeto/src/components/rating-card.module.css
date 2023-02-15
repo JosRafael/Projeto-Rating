@@ -9,3 +9,11 @@
     border-radius: 100%;
     padding: 10px;
 }
+.title{
+    font-size: 32px;
+}
+.description{
+    color: #8b919d;
+    font-size: 12px;
+    
+}
