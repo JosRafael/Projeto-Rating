@@ -21,6 +21,7 @@ export default function RatingCard(){
         </div> 
        
         <div className={styles.buttonGroup}>
+            {[1,2,3,4,5]}
         <button onClick={()=>handleSetRating(rating)} className={styles.button}>1</button>
         <button className={styles.button}> 2</button>
         <button className={styles.button}>3</button>
