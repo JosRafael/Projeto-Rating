@@ -3,6 +3,8 @@
     width: 380px;
     padding: 2rem 2.5rem;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .star{
     background-color: #333c47;
@@ -15,5 +17,14 @@
 .description{
     color: #8b919d;
     font-size: 12px;
-    
+}
+.button{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.submit{
+
 }
