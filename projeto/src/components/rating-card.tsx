@@ -6,7 +6,6 @@ export default function RatingCard(){
     function handleSetRating(rating:number){
         setRating(rating)
     }
-
     return <div className={styles.card}>
        <div>
         <img className={styles.star} src='/icon-star.svg' alt='star'/>
@@ -21,13 +20,11 @@ export default function RatingCard(){
         </div> 
        
         <div className={styles.buttonGroup}>
-            {[1,2,3,4,5]}
-        <button onClick={()=>handleSetRating(rating)} className={styles.button}>1</button>
-        <button className={styles.button}> 2</button>
-        <button className={styles.button}>3</button>
-        <button className={styles.button}>4</button>
-        <button className={styles.button}>5</button>
+            {[1,2,3,4,5].map((rating)=>(
+           <button onClick={()=>handleSetRating(rating)} className={styles.button}>{rating}</button>
+            ))}
         </div>
+        
         <button className={styles.buttonSubmit}>submit</button>
     </div>
 }
