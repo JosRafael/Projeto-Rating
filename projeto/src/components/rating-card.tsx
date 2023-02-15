@@ -48,7 +48,7 @@ export default function RatingCard(){
        
         <div className={styles.buttonGroup}>
             {[1,2,3,4,5].map((rating)=>(
-           <button type="button" onClick={()=>handleSetRating(rating)} className={styles.button}>{rating}</button>
+           <button key={rating} type="button" onClick={()=>handleSetRating(rating)} className={styles.button}>{rating}</button>
             ))}
         </div>
         <button type="submit" className={styles.buttonSubmit}>submit</button>
