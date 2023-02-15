@@ -65,6 +65,7 @@
 }
 .textCenter{
     display: flex;
+    gap: 0.5;
     flex-direction: column;
     text-align: center;
 }
