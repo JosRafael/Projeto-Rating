@@ -13,7 +13,7 @@ export default function RatingCard(){
         </p>
         </div> 
        
-        <div>
+        <div className={styles.buttonGroup}>
         <button className={styles.button}>1</button>
         <button className={styles.button}> 2</button>
         <button className={styles.button}>3</button>
