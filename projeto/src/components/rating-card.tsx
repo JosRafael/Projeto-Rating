@@ -20,8 +20,8 @@ export default function RatingCard(){
             <img src='/illustration-thank-you.svg' alt='cellphone'/>
            </div>
            
-            <div>
-                <h2>You select {rating} out of 5</h2>
+            <div className={styles.pill}>
+                <p>You select {rating} out of 5</p>
             </div>
            <h1>Thank you!</h1>
            <p>Thanks for the review, we are grateful for your feedback!</p>

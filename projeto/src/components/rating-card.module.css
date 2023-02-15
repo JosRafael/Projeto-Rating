@@ -12,6 +12,13 @@
     border-radius: 100%;
     padding: 10px;
 }
+.pill{
+   background-color: #333c47;
+   padding: 4px 10px;
+   border-radius: 20px;
+    font-size: 14px;
+    color :#f57414;
+}
 .title{
     font-size: 32px;
 }
