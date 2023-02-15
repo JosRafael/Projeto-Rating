@@ -1,10 +1,11 @@
 .card{
     background-color: #202630;
-    width: 380px;
-    padding: 2rem 2.5rem;
+    width: 360px;
+    padding: 2rem 2rem;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    gap: 0.75rem;
 }
 .star{
     background-color: #333c47;
@@ -19,12 +20,15 @@
     font-size: 12px;
 }
 .button{
+    background-color: #393f47;
+    color: white;
     width: 40px;
     height: 40px;
     align-items: center;
     justify-content: center;
-    border-radius: 50px;
+    border-radius: 50%;
+    border: none;
 }
-.submit{
-
+.text h1{
+    padding-bottom: 0.5rem;
 }
