@@ -20,6 +20,6 @@ export default function RatingCard(){
         <button className={styles.button}>4</button>
         <button className={styles.button}>5</button>
         </div>
-        <button className={styles.submit}>submit</button>
+        <button className={styles.buttonSubmit}>submit</button>
     </div>
 }

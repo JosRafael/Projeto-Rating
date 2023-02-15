@@ -32,10 +32,18 @@
 .button:hover{
     background-color: #7c8798;
 }
+
+.buttonSubmit{
+    text-transform: uppercase;
+    border: none;
+    color :#f57414;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
 .buttonGroup{
     display: flex;
     justify-content: space-between;
-
 }
 .button:focus{
     background-color: #f57414;
