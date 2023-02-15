@@ -33,13 +33,18 @@
     background-color: #7c8798;
 }
 
+.buttonSubmit:hover{
+    color :#f57414; 
+    background-color: white;
+}
 .buttonSubmit{
-    text-transform: uppercase;
     border: none;
-    color :#f57414;
+    text-transform: uppercase;
+    font-weight: bold;
     padding: 10px;
     border-radius: 20px;
-    background-color: white;
+    color :white; 
+    background-color: #f57414;
 }
 .buttonGroup{
     display: flex;
