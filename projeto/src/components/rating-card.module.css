@@ -63,3 +63,8 @@
 .text h1{
     padding-bottom: 0.5rem;
 }
+.textCenter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

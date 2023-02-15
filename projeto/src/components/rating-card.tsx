@@ -23,8 +23,11 @@ export default function RatingCard(){
             <div className={styles.pill}>
                 <p>You select {rating} out of 5</p>
             </div>
-           <h1>Thank you!</h1>
+           <div className={styles.textCenter}>
+            
+           <h1 className={styles.title}>Thank you!</h1>
            <p>Thanks for the review, we are grateful for your feedback!</p>
+           </div>
             </div>
         )
     }
