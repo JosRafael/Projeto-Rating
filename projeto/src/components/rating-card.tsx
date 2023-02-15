@@ -3,15 +3,30 @@ import {useState} from 'react'
 export default function RatingCard(){
     
     const [rating, setRating]=useState<number>();
+    const [isSubmited, setIsSubmited]=useState<boolean>(false);
+    
     function handleSetRating(rating:number){
         setRating(rating)
     }
-    return <div className={styles.card}>
+    function handleSubmit(e: React.FormEvent){
+        e.preventDefault()
+        setIsSubmited(true)
+    }
+   
+    if(true){
+        return(
+            <h1>Thank You!</h1>
+        )
+    }
+   
+   return(
+   <form onSubmit={handleSubmit} className={styles.card}>
        <div>
         <img className={styles.star} src='/icon-star.svg' alt='star'/>
        </div>
 
        <div className={styles.text}>
+        <p>{rating}</p>
         <h1 className={styles.title}>How did we do?</h1>
         <p className={styles.description}>
             Please let us know how we did with your support request. all feedbacks is 
@@ -25,6 +40,7 @@ export default function RatingCard(){
             ))}
         </div>
         
-        <button className={styles.buttonSubmit}>submit</button>
+        <button type="submit" className={styles.buttonSubmit}>submit</button>
     </div>
+   )
 }
