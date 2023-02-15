@@ -15,7 +15,7 @@ export default function RatingCard(){
    
     if(isSubmited){
         return(
-            <h1>Thank You! {rating}</h1>
+            <div className={styles.card}>Thank You!</div>
         )
     }
    
@@ -26,7 +26,6 @@ export default function RatingCard(){
        </div>
 
        <div className={styles.text}>
-        <p>{rating}</p>
         <h1 className={styles.title}>How did we do?</h1>
         <p className={styles.description}>
             Please let us know how we did with your support request. all feedbacks is 
@@ -36,7 +35,7 @@ export default function RatingCard(){
        
         <div className={styles.buttonGroup}>
             {[1,2,3,4,5].map((rating)=>(
-           <button onClick={()=>handleSetRating(rating)} className={styles.button}>{rating}</button>
+           <button type="button" onClick={()=>handleSetRating(rating)} className={styles.button}>{rating}</button>
             ))}
         </div>
         <button type="submit" className={styles.buttonSubmit}>submit</button>
